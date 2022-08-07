@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp3698391.jpg);
+    background-size: cover;
+}
+.container{
+    color:aliceblue;
+    position: absolute;
+    top: 12%;
+    left: 38%;
+    background: rgba(95, 100, 225, 0.2);
+    padding: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
+    box-shadow: 3px 5px 15px rgba(0,0,0,.75);
+
+}
+.container h1{
+    text-align: center;
+    border-bottom: 4px solid blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(230, 206, 70, 0.958);
+    letter-spacing: 6px;
+    text-shadow: 5px 6px 5px rgba(0,0,0,.75);
+}
+input[type="number"]{
+    padding: 6px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    width: 90%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    text-shadow: 5px 6px 5px rgba(0,0,0,.75);
+}
+.output p{
+    font-size: larger;
+    font-weight: bold;
+    color: #e67777;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 5px 6px 5px rgba(0,0,0,.75);
+}
+.under{
+    border: 2px solid blueviolet;
+    border-radius : 10px;
+    border-width: 95%;
+    font-size:xx-large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+    text-shadow: 5px 6px 5px rgba(0,0,0,.75);
+    box-shadow: 5px 6px 5px rgba(0,0,0,.75);
+    
+}
+input[type="button"]{
+    width:49%;
+    font-size:medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    padding: 5px;
+    color:rgba(230, 206, 70, 0.958);
+    background: none;
+    cursor: pointer;
+    box-shadow: 5px 6px 5px rgba(0,0,0,.75);
+    text-shadow: 2px 1px 2px #000000;
+}
+#mul{
+    width: 59%;
+}
+#divid{
+    width:39%;
+}
+input[type="button"]:hover{
+    background-color: rgba(230, 206, 70, 0.958);
+    color: rgb(87, 24, 147);
+}
+#clr1:hover{
+    background-color: rgb(177, 24, 24);
+    color: rgba(230, 206, 70, 0.958);
+}

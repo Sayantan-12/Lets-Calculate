@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Calculate</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+        <p><input type="number" rows="3" cols="20" id="n1" placeholder="Enter Number"></p>
+        <p><input type="number" rows="3" cols="20" id="n2" placeholder="Enter Number"></p>
+
+         <div class="output"><p>RESULT </p></div>
+        <div class="under"><span id="result"></span><br><br></div><br><br>
+            
+        <input type="button" name="Convert to UPPERCASE" id="sum"value="SUMMATION + " onclick="add()">
+        <input type="button" value="SUBTRACTION - " onclick="sub()">
+        <br><br>
+        <input type="button" id="mul"value="MULTIPLICATION * " onclick="mul()">
+        <input type="button" id="divid"value="DIVIDE / " onclick="divide()">
+        <br><br>
+        <input type="button" value="Clear"  id="clr1" onclick="return clearall()">
+        <input type="button" value="Enter" onclick="return ent()">
+    </div>
+    <script src="text.js"></script>
+</body>
+</html>
